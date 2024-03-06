@@ -11,7 +11,7 @@ public class CurrentAccount extends BankAccount{
         // minimum balance is 5000 by default. If balance is less than 5000, throw "Insufficient Balance" exception
         super(name, balance, 5000);
         if(balance < 5000){
-            throw new customException("Insufficient Balance");
+            throw new CustomException("Insufficient Balance");
         }
     }
 
