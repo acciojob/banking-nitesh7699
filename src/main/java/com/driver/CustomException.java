@@ -1,6 +1,6 @@
 package com.driver;
 
-public class customException extends Exception {
+public class CustomException extends Exception {
     customException(String str){
         super(str);
     }
